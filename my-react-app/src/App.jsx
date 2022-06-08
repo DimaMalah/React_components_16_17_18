@@ -1,7 +1,6 @@
 import React from "react";
-import Card from "./components/Card.js";
-import Card2 from "./components/Card2.jsx";
-import Definitions from "./components/Definitions.jsx";
+import Progress from "./components/Progress.jsx"
+
 
 
 const definition = [
@@ -11,11 +10,7 @@ const definition = [
 
 function App() {
 	return (<>
-		<Card></Card>
-		<Card2 title="card title" text="card text"></Card2>
-		<Card2 title="  " text="card text"></Card2>
-		<Card2 title="card title"></Card2>
-		<Definitions data={definition} />
+		<Progress width="80%" percentage={40} />
 	</>
 	)
 
