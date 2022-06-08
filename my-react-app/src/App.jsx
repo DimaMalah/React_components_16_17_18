@@ -10,7 +10,7 @@ const definition = [
 
 function App() {
 	return (<>
-		<Progress width="40%" percentage={40} />
+		<Progress width="80%" percentage={40} />
 	</>
 	)
 
